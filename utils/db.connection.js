@@ -1,6 +1,9 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/ikeah", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-});
+mongoose.connect(
+  "mongodb+srv://raflyafrzl:12345@cluster0.bmw38zc.mongodb.net/test",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  }
+);
